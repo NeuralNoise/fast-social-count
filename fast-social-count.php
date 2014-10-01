@@ -42,7 +42,7 @@ add_shortcode('fast-social-count', 'fast_social');
 
 function fsc_add_stylesheets() {
     $version = "1.5";
-    wp_register_style('fast_social_count_css', plugins_url('fast-social-count.min.css', __FILE__),'',$version, false);
+    wp_register_style('fast_social_count_css', plugins_url('fsc-assets/fast-social-count.min.css', __FILE__),'',$version, false);
     wp_enqueue_style('fast_social_count_css');
 }
 //add basic styles. Better to add your own, deregister theese files in your own functions file
@@ -51,7 +51,7 @@ add_action( 'wp_enqueue_scripts', 'fsc_add_stylesheets' );
 function fast_social($atts){
      $version = "1.5";
     //only on pages using the shortcode
-    wp_register_script('fast_social_count_js', plugins_url('fast_social_count.min.js', __FILE__), array('jquery'),$version, true);
+    wp_register_script('fast_social_count_js', plugins_url('fsc-assets/fast_social_count.min.js', __FILE__), array('jquery'),$version, true);
     wp_enqueue_script('fast_social_count_js');
 
     global $post;
@@ -356,21 +356,6 @@ $plugin = plugin_basename(__FILE__);
 add_filter("plugin_action_links_$plugin", 'fast_social_count_settings_link' );
 
 /****************************************************************************************/
-require_once( 'fast-social-count-options.php' );
+require_once( 'fsc-lib/fast-social-count-options.php' );
 
 /***********************************************************************************************
-***********************************************************************************************
-***********************************************************************************************
-***********************************************************************************************
-***********************************************************************************************
-***********************************************************************************************
-***********************************************************************************************
-***********************************************************************************************
-***********************************************************************************************
-***********************************************************************************************
-***********************************************************************************************
-***********************************************************************************************
-***********************************************************************************************
-***********************************************************************************************
-***********************************************************************************************
-***********************************************************************************************
