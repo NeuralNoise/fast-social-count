@@ -1,0 +1,204 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Fast Social Count v1.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-10-01 10:34:44+0000\n"
+"Last-Translator: engaffelkort <engaffelkort@mamilldo.se>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Swedish\n"
+"X-Poedit-Country: SWEDEN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: fast-social-count-options.php:32
+#@ fast-social-count
+msgid "Fast Social Count Settings"
+msgstr "Inställningar för Fast Social Count"
+
+#: fast-social-count-options.php:36
+#@ fast-social-count
+msgid "Use in page or post with shortcode:"
+msgstr "Använd på en sida eller i en post med shortcode:"
+
+#: fast-social-count-options.php:37
+#@ fast-social-count
+msgid "See which values you can set together whith each global setting below."
+msgstr "Se vilka argument du kan använda i shortcode bredvid de globala inställningarna nedan."
+
+#: fast-social-count-options.php:49
+#@ fast-social-count
+msgid "Override Fast Social Count CSS"
+msgstr "Skriv över Fast Social Counts CSS"
+
+#: fast-social-count-options.php:50
+#@ fast-social-count
+msgid "Change the hover for the buttons, and/or font/text-color in your own css:"
+msgstr "Ändra hur hover-läget ser ut för de sociala knapparna, och/eller typsnitt/textfärg i din egen css:"
+
+#: fast-social-count-options.php:52
+#@ fast-social-count
+msgid "Have a look default hover setting, and the rest of the css-file:"
+msgstr "Kika på standardcss:en för hover - och resten av css-filen:"
+
+#: fast-social-count-options.php:53
+#@ fast-social-count
+msgid "Of course you could copy that css to your own css-file and then deregister the stylesheet in your functions.php:"
+msgstr "Du kan ju också kopiera denna css till din egen css-fil och därefter avregistrera pluginets stylesheet i din functions.php:"
+
+#: fast-social-count-options.php:55
+#@ fast-social-count
+msgid "Remove plugin styles"
+msgstr "Ta bort pluginets stylesheet (för att ersätta med ditt egna)"
+
+#: fast-social-count-options.php:79
+#@ fast-social-count
+msgid "Choose social networks default values"
+msgstr "Välj standardinställningar för de sociala nätverken"
+
+#: fast-social-count-options.php:86
+#@ fast-social-count
+msgid "Share label"
+msgstr "Titel / Text för att dela"
+
+#: fast-social-count-options.php:94
+#@ fast-social-count
+msgid "CSS-classes for outer div"
+msgstr "CSS-klass för yttersta diven"
+
+#: fast-social-count-options.php:102
+#@ fast-social-count
+msgid "Applies to all icons"
+msgstr "Gäller alla ikoner"
+
+#: fast-social-count-options.php:110
+#@ fast-social-count
+msgid "Text about the total count"
+msgstr "Text om antalet delningar"
+
+#: fast-social-count-options.php:118
+#@ fast-social-count
+msgid "Show total count?"
+msgstr "Visa räknare för delningar?"
+
+#: fast-social-count-options.php:127
+#@ fast-social-count
+msgid "Which networks should be visible by default?"
+msgstr "Vilka nätverk ska visas som standard?"
+
+#: fast-social-count-options.php:134
+#@ fast-social-count
+msgid "Activate Facebook"
+msgstr "Aktivera Facebook"
+
+#: fast-social-count-options.php:142
+#@ fast-social-count
+msgid "Activate Twitter"
+msgstr "Aktivera Twitter"
+
+#: fast-social-count-options.php:150
+#@ fast-social-count
+msgid "Activate Google+"
+msgstr "Aktivera Google+"
+
+#: fast-social-count-options.php:158
+#@ fast-social-count
+msgid "Activate LinkedIn"
+msgstr "Aktivera LinkedIn"
+
+#: fast-social-count-options.php:166
+#@ fast-social-count
+msgid "Activate Pinterest"
+msgstr "Aktivera Pinterest"
+
+#: fast-social-count-options.php:175
+#@ fast-social-count
+msgid "Display in footer on all pages"
+msgstr "Visa i sidfoten på alla sidor"
+
+#: fast-social-count-options.php:181
+#@ fast-social-count
+msgid "Choose a long cache time"
+msgstr "Välj en lång tid för cache"
+
+#: fast-social-count-options.php:189
+#@ fast-social-count
+msgid " No! Do not check this box"
+msgstr "Nej! Kryssa inte i denna"
+
+#: fast-social-count-options.php:233
+#@ fast-social-count
+msgid "This settings can be overridden with shortcode values."
+msgstr "Dessa värden kan skrivas över i shortcoden"
+
+#: fast-social-count-options.php:236
+#@ fast-social-count
+msgid "Select how often networks should be checked for new shares. Default is 1 hour."
+msgstr "Välj hur ofta antalet delningar ska kollas. Standard är 1 timme."
+
+#: fast-social-count-options.php:236
+#@ fast-social-count
+msgid "If your web host support WP Object Cache, then caching of the counts will work. Read more"
+msgstr "Om ditt webbhotell / din server använder WP Object Cache så fungerar cachningen av räknaren. Läs mer"
+
+#: fast-social-count-options.php:237
+#@ fast-social-count
+msgid "Check each network that should be visible by default. Values added to shortcode overrides theese values. "
+msgstr "Välj varje nätverk som ska vara synligt som standard. Argument i shortcode skriver över dessa inställningar."
+
+#: fast-social-count-options.php:240
+#@ fast-social-count
+msgid "Not recommended, better to choose wich pages to promote and add the social buttons with shortcode on places you think is best for that particular page/post. If you still want to do it, make sure you add css-classes as needed to the outer div. ( .. class=\"your-container-class\")"
+msgstr "Rekommenderas inte. Bättre att lägga till shortcode i de sidor/poster som du tror har nytta av det. Om du ändån vill använda inställningen, se till att du har nödvändiga css-klasser tillagda på den yttersta diven.  ( .. class=\"din-container-klass\")"
+
+#: fast-social-count-options.php:265
+#@ fast-social-count
+msgid "hour"
+msgstr "timme"
+
+#: fast-social-count-options.php:266
+#: fast-social-count-options.php:267
+#@ fast-social-count
+msgid "hours"
+msgstr "timmar"
+
+#: fast-social-count-options.php:268
+#: fast-social-count-options.php:269
+#@ fast-social-count
+msgid "min"
+msgstr "min"
+
+#: fast-social-count.php:165
+#@ fast-social-count
+msgid "Fetching of Fast Social Count is turned off"
+msgstr "Hämtning av antalet delningar via Fast Social Count är avstängt."
+
+#: fast-social-count.php:219
+#@ fast-social-count
+msgid "Last share count by Fast Social Count just this minute. Result not cached."
+msgstr "Sista sammanställningen av antalet delningar gjordes just nu. Resultatet är inte cachat."
+
+#: fast-social-count.php:222
+#@ fast-social-count
+msgid "Last share count by Fast Social Count on"
+msgstr "Sista sammanställningen av antalet delningar via Fast Social Count gjordes "
+
+#: fast-social-count.php:222
+#@ fast-social-count
+msgid "Cache set to"
+msgstr "Cache är inställt till "
+
+#: fast-social-count.php:345
+#@ default
+msgid "Settings"
+msgstr ""
+
