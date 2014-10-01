@@ -1,5 +1,5 @@
 # Fast Social Count #
-*A WordPress Plugin adding sharing buttons without slow javascripts. Options provided to count how many times the url has been shared on specified social networks.*
+*A WordPress Plugin adding sharing buttons without slow javascripts. Options provided to count how many times the url has been shared on specified social networks. If your host supports WP_Object_Cache, the count of shares will be cached at set intervals [Read more: codex.wordpress.org/Class_Reference/WP_Object_Cache](http://codex.wordpress.org/Class_Reference/WP_Object_Cache)*
 
 Set globals on plugin settings page, override them per page/post with shortcode values.
 
