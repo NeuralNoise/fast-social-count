@@ -68,30 +68,6 @@
 .fa-pinterest:before {
   content: '\e810';
 }
-.fa {
-  display: inline-block;
-  font: normal normal normal 14px/1 "fsc_icons";
-  font-size: inherit;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-/* makes the font 33% larger relative to the icon container */
-.fa-lg {
-  font-size: 1.33333333em;
-  line-height: 0.75em;
-  vertical-align: -15%;
-}
-.fa-2x {
-  font-size: 2em;
-}
-.fa-3x {
-  font-size: 3em;
-}
-.fa-fw {
-  width: 1.28571429em;
-  text-align: center;
-}
 /* '' */
 /*fontello-ie7*/
 [class^="fa-"],
@@ -123,4 +99,27 @@
   *zoom: expression( this.runtimeStyle['zoom'] =  1 ", this.innerHTML = '&#xe810;&nbsp;')";
 }
 /* END IE7 */
-
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 "fsc_icons";
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* makes the font 33% larger relative to the icon container */
+.fa-lg {
+  font-size: 1.33333333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+.fa-2x {
+  font-size: 2em;
+}
+.fa-3x {
+  font-size: 3em;
+}
+.fa-fw {
+  width: 1.28571429em;
+  text-align: center;
+}
