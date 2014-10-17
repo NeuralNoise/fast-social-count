@@ -34,7 +34,13 @@ jQuery( document ).ready(function( $ ) {
 
         pagetitle = encodeURIComponent(pagetitle);
         pageurl = encodeURIComponent(pageurl);
-        twitterlang = twitterlang.substr(0, 2);
+         if ("" === twitterlang || undefined === twitterlang) {
+            twitterlang = "en";
+            sitelang = "en";
+        } else {
+            twitterlang = twitterlang.substr(0, 2);
+        }
+
 
 
         //check to see if we have an featured image or og:image
