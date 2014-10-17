@@ -1,7 +1,7 @@
 <?php
 /**
  * @package Fast_Social_Count
- * @version 1.5
+ * @version 1.6
  */
 /*
 Plugin Name: Fast Social Count
@@ -9,7 +9,7 @@ Plugin URI: http://wordpress.org/plugins/fast-social-count/
 Description: This  plugin enables share buttons and share count for Twitter, FaceBook, GooglePlus, LinkedIn and Pinterest. Avoids loading social networks javascript just to display number of likes and buttons to share with.
 Author: Mamilldo
 Text Domain: fast-social-count
-Version: 1.5
+Version: 1.6
 Author URI: http://mamilldo.se/fast-social-count/
 */
 
@@ -41,7 +41,7 @@ add_shortcode( 'fast-social', 'fast_social' );
 add_shortcode( 'fast-social-count', 'fast_social' );
 
 function fsc_add_stylesheets() {
-	$version = '1.5';
+	$version = '1.6';
 	wp_register_style( 'fast_social_count_css', plugins_url( 'fsc-assets/fast-social-count.min.css', __FILE__ ), '', $version, false );
 	wp_enqueue_style( 'fast_social_count_css' );
 }
@@ -49,7 +49,7 @@ function fsc_add_stylesheets() {
 add_action( 'wp_enqueue_scripts', 'fsc_add_stylesheets' );
 
 function fast_social( $atts ) {
-	 $version = '1.5';
+	 $version = '1.6';
 	//only on pages using the shortcode
 	wp_register_script( 'fast_social_count_js', plugins_url( 'fsc-assets/fast_social_count.min.js', __FILE__ ), array('jquery'), $version, true );
 	wp_enqueue_script( 'fast_social_count_js' );
