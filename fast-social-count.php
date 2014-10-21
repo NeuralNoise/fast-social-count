@@ -146,7 +146,7 @@ function fast_social( $atts ) {
 			}
 
 			if ( $googleplus_enabled ) {
-				$output .= '<li class="fsc_share_button share_googleplus"><span class="fa fa-fw fa-gplus ' . $iconclass . '"></span>';
+				$output .= '<li class="fsc_share_button share_googleplus"><span class="fa fa-fw fa-google-plus ' . $iconclass . '"></span>';
 				$output .= '</li>';
 			}
 
